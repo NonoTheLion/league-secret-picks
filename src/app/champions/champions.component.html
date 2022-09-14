@@ -1,0 +1,18 @@
+<div class="bold">
+    <p>
+        <a class="a-left">Difficulty</a>
+        Champion
+        <a class="a-right">Viability</a>
+        
+    </p>
+</div>
+
+<div *ngFor="let champion of champions">
+    <p>
+        <a class="a-left">{{convertStar(champion.difficulty)}}</a>
+        <a href="{{champion.url}}">
+            {{champion.name}}
+        </a>
+        <a class="a-right">{{convertStar(champion.viability)}}</a>
+    </p>
+</div>
