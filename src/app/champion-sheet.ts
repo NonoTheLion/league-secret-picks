@@ -8,7 +8,7 @@ export interface ChampionSheet {
 export const champions = [
     {
         name: 'Maitre Yi Quantique',
-        url: '',
+        url: 'https://raw.githubusercontent.com/NonoTheLion/league-secret-picks/ressources/pdf/QuantiqueYi.pdf',
         difficulty: 1,
         viability: 4
     },
