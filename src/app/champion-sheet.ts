@@ -16,14 +16,14 @@ export const champions = [
     },
     {
         name: 'Qiyanus Maximus',
-        url: '',
+        url: 'https://raw.githubusercontent.com/NonoTheLion/league-secret-picks/ressources/arts/Qiyannus_Maximus.png',
         difficulty: 5,
         viability: 5,
         gamemode: 'all'
     },
     {
         name: 'Khartus Capitaliste',
-        url: '',
+        url: 'https://raw.githubusercontent.com/NonoTheLion/league-secret-picks/ressources/arts/Karthus_Capitaliste.png',
         difficulty: 4,
         viability: 4,
         gamemode: 'all'
