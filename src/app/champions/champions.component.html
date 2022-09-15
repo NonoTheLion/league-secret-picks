@@ -7,7 +7,7 @@
     </p>
 </div>
 
-<div *ngFor="let champion of champions">
+<div id="{{champion.gamemode}}" *ngFor="let champion of champions">
     <p>
         <a class="a-left">{{convertStar(champion.difficulty)}}</a>
         <a href="{{champion.url}}">
